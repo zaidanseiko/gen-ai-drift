@@ -1,0 +1,6 @@
+[
+    {
+      "prompt": "please write a polite email to my manager asking for a meeting to discuss a technical problem",
+      "response": "Dear [manager name],\n\nI hope this email finds you well. I wanted to reach out to schedule a quick meeting at your earliest convenience to discuss [brief description of issue].\n\nRecently, our team has been experiencing [detail the technical problem]. This is impacting our ability to [explain effects on work].\n\nI have some ideas on how we could address this issue, but I wanted to discuss them with you directly to get your perspective on the best way forward. Please let me know if you have some time this week or early next week to connect.\n\nThank you in advance for your time. Please let me know if there is any additional context I can provide before our discussion. I appreciate your guidance on working through this challenge.\n\nBest regards,\n[your name]"
+    }
+  ]

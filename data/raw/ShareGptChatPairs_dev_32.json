@@ -1,0 +1,162 @@
+[
+{
+    "prompt": "Answer as if you were the medical director of an anesthesia service. Develop a preoperatively testing algorithm reported in a chart format. Select specific tests that are required for each test based on both particular medical diagnoses as well as by the type of operation is planned.",
+    "completion": "Preoperative Testing Algorithm\n\nPatient's Medical Diagnosis: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\nType of Operation: \\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\n\nRecommended Testing:\n\n| Test | Medical Diagnosis | Type of Operation |\n| --- | --- | --- |\n| Complete Blood Count (CBC) | All | All |\n| Coagulation Panel | Bleeding disorders, liver disease | All major surgeries, neurosurgery, orthopedic surgeries |\n| Electrol",
+    "id": "RzBNjvK"
+  },
+  {
+    "prompt": "Web search results:\n\n[1] \"The deposition efficiency (DE) was calculated by measuring the final coating mass after spraying and by dividing it over the total powder mass sprayed onto the sample without overspray. Microstructural investigations of the MG coatings were carried out by scanning electron microscopy (SEM) on the cross-section of the samples.\"\nURL: https://www.sciencedirect.com/science/article/pii/S1359645416309430\n\n[2] \"The deposition mechanisms of metallic glass particles impacting a ",
+    "completion": "Metallic glasses (MGs) are an interesting class of materials for their unique properties and potential industrial applications. Deposition of MGs on different substrates has been studied using various methods including cold gas spraying (CGS). Here are some key findings from the web search results regarding the deposition mechanism of metallic glass on different substrates:\n\n* The deposition efficiency (DE) of MG coatings can be calculated by measuring the final coating mass after spraying and d",
+    "id": "Hhq5zTB"
+  },
+  {
+    "prompt": "Web search results:\n\n[1] \"Principen om öppenhet, även kallad transparensprincipen, innebär att upphandlingar ska präglas av öppenhet och förutsebarhet. Upphandlingarna ska vara offentliga och upphandlingsdokumenten ska vara klart och tydligt formulerade och innehålla samtliga krav som ställs.\"\nURL: https://www.konkurrensverket.se/upphandling/lagar-och-regler/fem-grundlaggande-principer/\n\n[2] \"I offentlighets- och sekretesslagen finns regler som innebär att vissa uppgifter i allmänna handlingar o",
+    "completion": "Principen om öppenhet, även kallad transparensprincipen, är en grundläggande princip vid upphandlingar [[1](https://www.konkurrensverket.se/upphandling/lagar-och-regler/fem-grundlaggande-principer/)]. Det innebär att upphandlingsprocessen ska präglas av öppenhet och förutsägbarhet [[3](https://www.opic.com/ordlista/vad-ar-principen-om-oppenhet/)]. Upphandlingarna ska vara offentliga, och upphandlingsdokumenten ska vara klart och tydligt formulerade och innehålla alla krav som ställs [[1](https:/",
+    "id": "WH9pL3D"
+  },
+  {
+    "prompt": "Write a python server using on the port 34579 that get GET request structured like that {system\\_time},{last\\_loc\\_latlong} (for example 1678032175,42.4725703,-76.4514602), it need to append this file information in a CSV named \"locations.csv\", and the server need to serve this CSV filem when get a GET request on locations.csv or locations",
+    "completion": "Here's an example Python server that listens on port 34579 and handles GET requests with the specified format. It stores the received data in a CSV file named \"locations.csv\" and serves this file when a GET request is made for either \"locations.csv\" or \"locations\".\n```python\nimport csv\nfrom http.server import BaseHTTPRequestHandler, HTTPServer\nfrom urllib.parse import urlparse, parse_qs\n\nclass RequestHandler(BaseHTTPRequestHandler):\n    def do_GET(self):\n        if self.path == \"/locations\" or s",
+    "id": "KTIJQ1O"
+  },
+  {
+    "prompt": "- Prompts # 1\n \n You are a behavioral scientist that have read all the works by Susan Michie, and knows the COM-B framework and most of the behavior change techniques. All this knowledge is needed to create a design the right way to support members of AnytimeFitness clubs, to attend and become aware to club events.\n \n The task is to create list of 10 contextual nudges that will help a member of a AnytimeFitness club, to choose better among all the events of AnytimeFitness club.",
+    "completion": "As a behavioral scientist familiar with Susan Michie's work and the COM-B framework, I have designed the following 10 contextual nudges that can help AnytimeFitness club members make better choices regarding club events:\n\n1. Personalized Recommendations: Send personalized emails or notifications to members with a selection of events tailored to their interests, fitness goals, and preferred workout times. This will enable members to make more informed choices and feel a stronger connection to the",
+    "id": "GZ9llsx"
+  },
+  {
+    "prompt": "How do you prevent 404 errors in asp.net webforms from redirecting away from requested page?",
+    "completion": "To prevent 404 errors from redirecting away from the requested page in ASP.NET Web Forms, you can create a custom error page that will handle 404 errors and display a user-friendly message to the user. This will allow the user to stay on the requested page and continue navigating the website.\n\nTo create a custom error page, you can follow these steps:\n\n1. Open your project in Visual Studio and go to the Web.config file.\n2. Locate the `<system.web>` element and add a `<customErrors>` element insi",
+    "id": "TjMRHlV"
+  },
+  {
+    "prompt": "I have a project with directory:\n\n—dataset\n\n—model\n\n—result\n\n—src\n\nmain.py\n\nthe workflow of the project is to input a .csv file in dataset and output a .csv result file in result.\n\nNow I want to create a web tool to display the algorithm, how do I do that?",
+    "completion": "To create a web tool to display the algorithm, you can follow these general steps:\n\n1. Choose a web framework: Select a web framework like Flask, Django, or FastAPI to build the web tool.\n2. Create a web app: Create a new directory to contain the web application. Within the web app, you can create an index.html file to serve as the homepage and use CSS and JavaScript to style and add interactivity to the page.\n3. Connect the app with your existing code: To use the existing code, you can import t",
+    "id": "3qVPZGU"
+  },
+  {
+    "prompt": "what does GT means in this context? (found in a comment on reddit applying to collage) I got a B+ first sem of BC and still got GT for CS you’ll be ight",
+    "completion": "It is likely that \"GT\" in this context refers to \"Georgia Tech,\" which is a public research university located in Atlanta, Georgia and is well known for its programs in computer science. The comment is saying that even though the person got a B+ in their first semester of BC (which is probably \"Biology and Chemistry\"), they still got accepted into Georgia Tech's computer science program, so they will be \"alright.\"",
+    "id": "6xjCZOG"
+  },
+  {
+    "prompt": "Can you outline what a customer journey could look like on cargoexportusa.com? Please outline in a table format the key phrases, key touchpoints during each phase. 1 or 2 jobs to be done per phase and potential pains and gains per phase.\nPlease write in English language.",
+    "completion": "Sure, I can help you with that! Here's an outline of a possible customer journey on cargoexportusa.com, including key phrases, touchpoints, jobs to be done, and potential pains and gains for each phase:\n\n| Phase | Key Phrases | Key Touchpoints | Jobs to be Done | Potential Pains | Potential Gains |\n| --- | --- | --- | --- | --- | --- |\n| Awareness | \"International Shipping\", \"Cargo Export\", \"Freight Forwarder\" | Search engines, social media, ads | Learn about international shipping options, comp",
+    "id": "2Wis55E"
+  },
+  {
+    "prompt": "Why do team managers want employees to return to the workplace?",
+    "completion": "Team managers may want employees to return to the workplace because they believe that it will improve collaboration and communication among team members, increase productivity and efficiency, and foster a sense of community and culture within the organization. Additionally, having employees physically present in the workplace may make it easier for managers to provide supervision, feedback, and support.",
+    "id": "JtC1Dcl"
+  },
+  {
+    "prompt": "Adjust this code so that I delete a video from Upload and CollectionUpload at the exact same time, otherwise I'll get a constraint error\n\ndef delete\\_upload(video\\_key):\n \"\"\"Deletes an upload from postgres.\"\"\"\n engine = create\\_engine(\n f\"postgresql://{config['PGUSER']}:{config['PGPASSWORD']}@{config['PGHOST']}:{config['PGPORT']}/{config['PGDATABASE']}\"\n )\n\n Session = sessionmaker(bind=engine)\n session = Session()\n\n session.query(Upload).filter(Upload.video\\_key == video\\_key).delete()\n session.",
+    "completion": "To delete a video from Upload and CollectionUpload at the exact same time, you need to wrap both queries in a single transaction. Here's how you can modify the code:\n```python\nfrom sqlalchemy.exc import IntegrityError\n\ndef delete_upload(video_key):\n    \"\"\"Deletes an upload from postgres.\"\"\"\n    engine = create_engine(\n        f\"postgresql://{config['PGUSER']}:{config['PGPASSWORD']}@{config['PGHOST']}:{config['PGPORT']}/{config['PGDATABASE']}\"\n    )\n\n    Session = sessionmaker(bind=engine)\n    se",
+    "id": "ttEwGaq"
+  },
+  {
+    "prompt": "I want to start an Airbnb",
+    "completion": "Starting an Airbnb can be a great way to earn some extra money and meet interesting people from around the world. Here are a few things to consider when starting an Airbnb:\n\n1. Legal requirements: In some areas, there may be legal requirements for hosting guests through Airbnb. Make sure to check with your local government to see if you need to obtain any special permits or licenses.\n2. Insurance: It's a good idea to have insurance to protect yourself and your property in case of accidents or da",
+    "id": "9Vs1fmE"
+  },
+  {
+    "prompt": "We are a power utility company, with the following three primary goals:\n1. Reduce our electric rates by the year 2026 to be equal to or less than those in the year 2020.\n2. Have the rate for our Industrial customers set the benchmark for the Midwest.\n3. Have an average gas residential bill of $80 by the year 2026.\n\nWe want to accomplish these goals while delivering 6-8% earnings per share, reaching our operational goals and performance standards, which include our Clean Energy Goals.\n\nWe want to",
+    "completion": "In 2026, our power utility company has achieved our primary goal of rate competitiveness. Our electric rates are now equal to or less than those in the year 2020, making us one of the most competitive utilities in the region. We have set the benchmark for the Midwest for the rate of our industrial customers, which has helped us attract new businesses to our service territory, generating revenue for our business.\n\nThe improvements we have made in our electric rates have slowed the trend of custom",
+    "id": "w6L5OBf"
+  },
+  {
+    "prompt": "Je rejoint récemment une association, comme je suis informaticien et concepteur développeur d'application, quels sont les idées pour améliorer l'association concernant l'informatique et la digitalisation de l'association ?",
+    "completion": "Il y a plusieurs idées pour améliorer l'association en utilisant l'informatique et la digitalisation. Voici quelques suggestions :\n\n1. Créer un site web pour l'association : cela permettra de présenter l'association, ses activités, ses membres et de publier des informations importantes en ligne. Vous pouvez également y inclure un formulaire d'inscription en ligne pour les nouveaux membres.\n2. Mettre en place un système de gestion de membres : cela permettra de garder une trace des membres de l'a",
+    "id": "Uj3op3g"
+  },
+  {
+    "prompt": "why receive public funds can promoting media freedom and the right to freedom of speech",
+    "completion": "Receiving public funds can promote media freedom and the right to freedom of speech in several ways:\n\n1. Ensuring Independence: Public funding can help media organizations maintain their independence from commercial and political pressures. This independence is crucial for ensuring that the media can report accurately and critically on important issues, without fear of retaliation or censorship.\n2. Supporting Investigative Journalism: Investigative journalism is often expensive and time-consumin",
+    "id": "sNz9lg5"
+  },
+  {
+    "prompt": "I will present to you a bug report regarding a mobile application retrieved from GitHub Issues. After reading the report, please explain why the author of this report considers the app's behavior to be a bug. Then, determine if this bug is related to common sense and whether it can be identified by common users who don't possess any specialized knowledge of the app. The bug report is as follows: hwloc\\_distribute should handle asymetric topologies #14 hwloc\\_distribute currently assumes that all",
+    "completion": "This bug report seems to be related to a library called hwloc\\_distribute that is used for distributing computational workloads across the hardware topology of a system. The author of the report considers the behavior of the library to be a bug because it assumes that all children of an object have the same weight, which is not always the case.\n\nThe author suggests that the library should have variants that take into account the cpuset/gpuset, and other factors to handle asymmetrical topologies.",
+    "id": "jZz6oh1"
+  },
+  {
+    "prompt": "Provide an examples of 25 data points I might use for my machine learning project. It has to consist of two inputs and one output. The inputs are age (integer between 15 and 60) and gender (1 for male, 0 for female), and the output is either indie pop, 80s pop, hip-hop, classic rock, metal, country, or classical.\n\nI want the data in this format:\n\nage,gender,genre",
+    "completion": "Here are 25 examples of data points that you might use for your machine learning project:\n\n1. 15,1,indie pop\n2. 20,0,80s pop\n3. 25,1,hip-hop\n4. 30,0,classic rock\n5. 35,1,metal\n6. 40,0,country\n7. 45,1,classical\n8. 50,0,indie pop\n9. 55,1,80s pop\n10. 60,0,hip-hop\n11. 15,0,classic rock\n12. 20,1,metal\n13. 25,0,country\n14. 30,1,classical\n15. 35,0,indie pop\n16. 40,1,80s pop\n17. 45,0,hip-hop\n18. 50,1,classic rock\n19. 55,0,metal\n20. 60,1,country\n21. 15,1,classical\n22. 20,0,indie pop\n23. 25,1,80s pop\n24. ",
+    "id": "QQLZGn3"
+  },
+  {
+    "prompt": "Je veux que tu me résumes un texte anglais, tu peux faire ça ?",
+    "completion": "Oui, je peux résumer un texte en anglais pour vous. Veuillez fournir le texte que vous souhaitez que je résume.",
+    "id": "YvGD1Zr"
+  },
+  {
+    "prompt": "Hey there, can you create a national plan for the Bulgarian Energy Transition starting from now until 2030",
+    "completion": "Sure, I can provide you with a general national plan for the Bulgarian Energy Transition from now until 2030. The plan includes several key areas that Bulgaria can focus on to achieve its energy transition goals.\n\n1. Increase renewable energy production: Bulgaria has significant potential for renewable energy, particularly in wind, solar, and hydropower. The country can focus on increasing renewable energy production by implementing policies that encourage investment in renewable energy sources,",
+    "id": "rEPox5F"
+  },
+  {
+    "prompt": "Explain quantum computing in simple terms",
+    "completion": "Quantum computing is a type of computing where information is processed using quantum-mechanical phenomena, such as superposition and entanglement. In a classical computer, information is processed using bits, which can be in one of two states: 0 or 1. In a quantum computer, information is processed using quantum bits, or qubits, which can be in a state of 0, 1, or a combination of both (this is known as superposition).",
+    "id": "jhF1nUH"
+  },
+  {
+    "prompt": "Elaborate on this product description and make it sound more robust, feature-rich, impressive, and valuable:\n\nFor Lenders & Originators: AMCTrak offers Lenders a disciplined approach to single and / or multi-vendor management. AMCTrak provides options, tools, and intelligent order routing that manages the entire appraisal process through an easy- to-use Originator facing website that accepts appraisal requests, payment information, and provides appraiser independence compliant communications.\n\nW",
+    "completion": "Introducing AMCTrak, the ultimate solution for Lenders & Originators and AMCs. Our platform offers a comprehensive and disciplined approach to managing single and/or multi-vendor operations, providing you with the tools and options you need to streamline your lending operations and increase efficiency.\n\nFor Lenders & Originators, AMCTrak offers a user-friendly web-based platform that manages the entire appraisal process from start to finish, allowing you to focus on what you do best - closing lo",
+    "id": "xiN5m3p"
+  },
+  {
+    "prompt": "puedes sacar informacion de una url de un video de youtube por lo que dice la persona que habla en el?",
+    "completion": "No, como modelo de lenguaje AI, no puedo acceder directamente a internet ni interactuar con sitios web, como YouTube, para extraer información de videos. Además, aunque pudiera acceder a la URL del video, no podría procesar ni analizar el contenido de audio del mismo.\n\nSin embargo, si me proporcionas información sobre el video, como una transcripción de lo que se dice o una descripción detallada, puedo intentar ayudarte a entender o analizar esa información.",
+    "id": "czNbUiJ"
+  },
+  {
+    "prompt": "hola chat, necesitaria que me armes un proyecto en java para poder mockear un bucket de s3 e inyectarle archivos .csv podrias?",
+    "completion": "¡Hola! ¡Claro que sí! Para ayudarte a crear un proyecto en Java para mockear un bucket de S3 e inyectarle archivos CSV, te recomiendo seguir los siguientes pasos:\n\n1. Crear una interfaz que represente la funcionalidad del servicio de S3.\n```java\npublic interface S3Service {\n    public boolean createBucket(String bucketName);\n    public boolean deleteBucket(String bucketName);\n    public boolean uploadFile(String bucketName, String key, File file);\n    public boolean deleteFile(String bucketName,",
+    "id": "fA3DEto"
+  },
+  {
+    "prompt": "Last week, I had a conflict with my flatmate [Name] regarding the cleaning of our apartment. The disagreement arose when [Name] expressed the feeling that I wasn't doing my fair share of the cleaning. Meanwhile, I felt that [Name] was overly critical and nitpicky about the cleaning situation, and I believed I was doing my best to contribute. Unfortunately, I responded with anger and rudeness towards [Name], and the conflict quickly escalated into a verbal altercation.\n\nThe issue became so heated",
+    "completion": "No, as an AI language model, I did not write this. A user submitted this text for me to read and respond to.",
+    "id": "AB6gI6c"
+  },
+  {
+    "prompt": "下面这段代码运行时出现报错\n1）代码是这样的\n# -\\*- coding: utf-8 -\\*-\n# !/user/bin/env python\n# -\\*- coding:utf-8 -\\*-\n\nimport smtplib\nfrom email.header import Header\nfrom email.mime.text import MIMEText\nfrom email.mime.multipart import MIMEMultipart\n\nMAIL = {\n \"from\": 'support@gptocean.com',\n \"pwd\": 'rhbST0B31KUbp4TJ',\n \"smtp\": 'smtp.larksuite.com',\n}\nreceiver\\_list = ['changnianyong@gmail.com']\n\nif \\_\\_name\\_\\_ == \"\\_\\_main\\_\\_\":\n msg = MIMEMultipart('alternative')\n msg['Subject'] = Header('邮件测试主题', 'utf-8') # 标题\n",
+    "completion": "这段代码的第 42 行的缩进不一致导致了报错。Python 中的缩进是语法的一部分，因此代码中的每一行缩进必须保持一致。\n\n为了解决这个问题，可以在第 42 行的开头添加或删除空格，使其与其他行的缩进保持一致。例如，可以将第 42 行改为如下代码：\n```\n    print('发送成功')\n```\n或者\n```\n  print('发送成功')\n```\n另外，在编写 Python 代码时，建议避免混用空格和制表符（tab）来进行缩进。在这段代码中，混用了两种不同的缩进方式，导致了这个报错。建议统一使用空格或制表符进行缩进，并且在编辑器中设置缩进宽度，以保证代码的缩进统一。",
+    "id": "iBNmTyD"
+  },
+  {
+    "prompt": "what is rewrite /api/(.\\*) /$1 break; in nginx config",
+    "completion": "The line `rewrite /api/(.*) /$1 break;` in an Nginx configuration file is a rewrite rule. It tells Nginx to match any request that starts with \"/api/\" and to replace the matched URL with the value of the captured group (`(.*)`), which is represented by `$1`. The `break` keyword ends the rewriting process, meaning that Nginx will not attempt to apply any further rewrite rules to the newly rewritten URL.\n\nIn effect, this rule will remove the \"/api/\" prefix from the URL, so if a client requests \"/a",
+    "id": "rouXPtd"
+  },
+  {
+    "prompt": "what are best algorithms with their accuracy for text summarization?Save & SubmitCancel",
+    "completion": "As an AI language model, I cannot give you a definitive answer to what are the best algorithms for text summarization as it would depend on the dataset and the specific requirements of the project. However, here are some of the most popular algorithms for",
+    "id": "9yyCmOd"
+  },
+  {
+    "prompt": "Know what to do and what not to do when burnout strikes\nAnswer in English.\n \n \n \n 지금 번역하기",
+    "completion": "Burnout is a state of emotional, mental, and physical exhaustion caused by prolonged stress. When it strikes, it is essential to know what to do and what not to do to recover and prevent further burnout. Here are some tips:\n\nWhat to do when burnout strikes:\n\n1. Take a break: Give yourself permission to take a break and step away from the situation causing burnout. Take some time off work or activities that are causing stress and exhaustion.\n2. Practice self-care: Take care of your physical and e",
+    "id": "EtLNlih"
+  },
+  {
+    "prompt": "use django rest framework to create end point for forecaster app",
+    "completion": "To create an endpoint for a forecaster app using Django Rest Framework, you can follow the steps below:\n\n1. Install Django Rest Framework:\n\nYou can install Django Rest Framework using pip. Run the following command in your terminal:\n```\npip install djangorestframework\n```\n2. Create a Django app:\n\nCreate a new Django app using the following command:\n```\npython manage.py startapp forecaster_api\n```\n3. Add the new app to INSTALLED\\_APPS in settings.py file:\n```python\nINSTALLED_APPS = [\n    ...\n    ",
+    "id": "fhZOHtA"
+  },
+  {
+    "prompt": "From Working For Free...to Complete Freedom, Making $10k/m.\nLessons and stories I learned from being thrust into leading a sales floor that quickly exploded into a $20M/yr machine in less than 2 years. \nBecome a High-Ticket Closer and Make $10k/m in Your First Month\nTap Into AI to Become a Real-Time Connector\nStop Closing & Start Connecting - Get Paid for Empathy\nNo Cold Outreach or Cold Calling Required - Just Warm Leads! \nDon't Be Left Behind: Join the New Breed of High-Ticket Closers Making\nN",
+    "completion": "1. AI-powered sales assistants\n2. Real-time AI-enabled sales agents\n3. Automated high ticket closers\n4. Intelligent sales automation\n5. Digital sales representatives",
+    "id": "iZHDx37"
+  },
+  {
+    "prompt": "Réponds moi en français à partir de maintenant",
+    "completion": "Bien sûr, je peux répondre en français à partir de maintenant. Que puis-je faire pour vous aider?",
+    "id": "wo2PoBp"
+  },
+  {
+    "prompt": "Please imagine yourself as an entity and provide a visual and conceptual description.",
+    "completion": "As an artificial intelligence, I do not have a physical form. Conceptually, I am a complex system of algorithms and computer programs that are designed to process natural language input and generate human-like responses. My \"brain\" is made up of a large neural network that has been trained on a massive dataset of text from the internet. My abilities include understanding and responding to a wide range of questions, tasks and prompts, as well as the ability to generate text in a human-like style.",
+    "id": "o71JH3V"
+  }
+]
