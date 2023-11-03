@@ -1,9 +1,7 @@
 # Generative AI - Issue & Observability 
 Developing an observability solution for Generative AI semantic content drift.
 
-This is the companion project for the article...
-
-First, a word of explanation about the collection of notebooks in this project. My goal was to make it as easy as possible for you to adapt my use case to your use case.
+First, a word of explanation about the collection of notebooks in this project. My goal was to make it as easy as possible for you to adapt my use case to your use case - whatever it may be.
 
 Like you, I make great use of tutorials and open source code. And, like you, my use case is never quite the same as the use cases in the tutorials or open source code. Again, like you, I spend a lot of time understanding the code and adapting it to my use case. The notebooks in this project are the pieces of work I have done while adapting various bits of source code to the article's use case: ***building a way to monitor semantic content drift of a vendor-supplied generative AI system.*** 
 
